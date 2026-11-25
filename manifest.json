@@ -1,17 +1,15 @@
 {
+  "id": "yesilcam-tv",
   "name": "Yeşilçam TV Repo",
   "version": "1.0.1",
-  "description": "Yeşilçam TV film kaynak sağlayıcısı — Nuvio yerel scraper",
+  "description": "Yeşilçam film kaynak sağlayıcısı",
   "scrapers": [
     {
       "id": "yesilcamtv",
       "name": "CVN-Yeşilçam TV",
-      "description": "yesilcamtv.com.tr üzerindeki film sayfalarından oynatılabilir kaynak bulur.",
-      "version": "1.0.1",
-      "author": "heyder",
-      "supportedTypes": ["movie"],
       "filename": "providers/yesilcamtv.js",
       "enabled": true,
+      "supportedTypes": ["movie"],
       "contentLanguage": ["tr"],
       "formats": ["m3u8", "mp4"]
     }
